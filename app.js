@@ -404,29 +404,8 @@ server.route({
 
                     }
                 });
-
-
-                // save and parse database
-
-                //currentTrip = JSON.stringify(currentTrip);
             }
-
-
         });
-
-
-        //end google place api
-
-        //    Trip.create(parsing).then(function (currentTrip) {
-        //            Trip.sync();
-        //            console.log("...syncing");
-        //            console.log(currentTrip);
-        //            return (currentTrip);
-        //        }).then(function (currentTrip) {
-        //           
-        //        });
-
-
     }
 
 });
