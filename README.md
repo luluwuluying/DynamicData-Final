@@ -6,8 +6,8 @@
 
 ### How it works?
 #### Here I used Google Place Api: Using google place type to query and get the name, address, rating from each destination. I attached the google place api node.js as follows.
-#### ![
-#### ![alt text](http://url/to/api2.png)api.png)
+<img width="805" alt="api" src="https://cloud.githubusercontent.com/assets/13953337/25626435/832c854e-2f2d-11e7-91be-d0ee5c1fa94a.png">
+<img width="826" alt="api2" src="https://cloud.githubusercontent.com/assets/13953337/25626440/86903762-2f2d-11e7-92bd-c9d15e73af38.png">
 
 ### My code
 #### Since google place api doesn't have a specific place type called attractions or things to do, so I have to query those places by different place type, I am using restaurant, park ,church and mesume for my project. First I created a variable for location based on the input from user and then searching the places within the range of that location.
