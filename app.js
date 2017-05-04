@@ -110,7 +110,7 @@ server.route({
     path: '/',
     handler: {
         view: {
-            template: 'createTrip'
+            template: 'createtrip'
         }
     }
 });
@@ -177,10 +177,10 @@ server.route({
 
 server.route({
     method: 'GET',
-    path: '/createTrip',
+    path: '/createtrip',
     handler: {
         view: {
-            template: 'createTrip'
+            template: 'createtrip'
         }
     }
 });
